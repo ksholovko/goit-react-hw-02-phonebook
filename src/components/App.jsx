@@ -29,7 +29,7 @@ state = {
   }
     
       this.setState(prevState => ({
-      contacts: [...prevState.contacts, newContact]
+      contacts: [newContact, ...prevState.contacts]
     }));
 
   }
